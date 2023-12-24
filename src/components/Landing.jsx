@@ -9,7 +9,7 @@ function Landing() {
           alt="logo of website"
         />
       </div>
-      <h1 className="text-white text-6xl p-4 font-poppins">
+      <h1 className="text-white md:text-6xl text-4xl p-4 font-poppins">
         T E C H <span className="text-[#27A5EF]">N I C A</span>
       </h1>
       <div className="p-3">
