@@ -9,11 +9,11 @@ function Landing() {
           alt="logo of website"
         />
       </div>
-      <h1 className="text-white text-6xl p-4 font-poppins">
+      <h1 className="text-white md:text-6xl text-4xl p-4 font-poppins">
         T E C H <span className="text-[#27A5EF]">N I C A</span>
       </h1>
       <div className="p-3">
-        <h2 className="text-white text-3xl p-4">
+        <h2 className="text-white md:text-3xl text-2xl p-4">
           Initiate | <span className="text-[#27A5EF]">Innovate</span> | Inspire
         </h2>
       </div>

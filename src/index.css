@@ -52,10 +52,8 @@ code {
 }
 
 .heading2 {
-  color: #27a5ef;
+  color: #27A5EF;
 }
-
-
 .caption {
   font-family: Inter;
   font-size: clamp(30px, 5vw, 50px);

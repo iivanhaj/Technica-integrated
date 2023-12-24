@@ -8,7 +8,6 @@ export default function FAQ() {
     <div className="bg-cover bg-center h-screen flex flex-col md:grid md:grid-cols-3 bg max-md:flex-col">
       <div className="flex-grow flex flex-col justify-center items-center text-center py-10 md:col-span-2">
         <h1 className="text-white mb-14 text-8xl md:pl-96 md:ml-36 md:pb-24 max-md:text-4xl">
-          FAQs
         </h1>
         <FAQList />
         <div className="flex items-start justify-start text-center pt-8">
