@@ -1,7 +1,7 @@
 const image = [
   {
     name: "Puppies",
-    post: require("../imageForWebsite/image2.jpeg"),
+    post: require("../imageForWebsite/image1.jpeg"),
     id: 0,
   },
   {

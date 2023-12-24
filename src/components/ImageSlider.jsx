@@ -1,8 +1,18 @@
 import images from "./images";
 import React, { useState, useEffect } from "react";
 
+const dateList = [
+  "8am - 9am",
+  "4pm - 5pm", 
+  "8pm - 9pm",
+];
+
+
+
 function ImageSlider() {
   const [slideIndex, setSlideIndex] = useState(0);
+  const [currentTime, setCurrentTime] = useState(dateList[0]);
+
   useEffect(() => {
     // Automatically move to the next slide every 3 seconds (adjust as needed)
     const interval = setInterval(() => {
@@ -12,6 +22,11 @@ function ImageSlider() {
     // Clean up the interval when the component unmounts
     return () => clearInterval(interval);
   }, []);
+
+  useEffect(() => {
+    setCurrentTime(dateList[slideIndex]); // Update current time when slideIndex changes
+  }, [slideIndex]);
+
 
   const prevSlide = () => {
     setSlideIndex(
@@ -30,14 +45,14 @@ function ImageSlider() {
         <span className="heading heading1">ENGA</span>
         <span className="heading heading2">GEMENTS</span>
       </p>
-      <div className="caro slider w-64 h-48 max-md:w-48 max-md:h-60 relative overflow-hidden">
+      <div className="caro slider w-2/6 h-3/5 max-md:w-64 max-md:h-60 relative overflow-hidden">
         {images.map((event, index) => (
           <img
             key={index}
             src={event.post}
             alt={`Post${index + 1}`}
             // Rendering of the image using opacity
-            className={`object-cover rounded-3xl absolute top-0 left-0 w-full h-full transition-opacity duration-500 p-4  ${
+            className={`object-fit: cover rounded-3xl absolute top-0 left-0 w-full h-full transition-opacity duration-500 p-4  ${
               index === slideIndex ? "opacity-100" : "opacity-0"
             }`}
           />
@@ -49,14 +64,12 @@ function ImageSlider() {
             (event, index) =>
               // Conditional rendering to display event.name only when its image is active
               index === slideIndex && (
-                <h1 className="text-white caption" key={index}>
-                  {event.name}
-                </h1>
+                <div key={index}>
+                <h1 className="text-white caption">{event.name}</h1>
+                <p className="text-white small-caption">{currentTime}</p>
+              </div>
               )
           )}
-        </div>
-        <div>
-          <p className="text-white small-caption">12:00PM - 01:00PM</p>
         </div>
       </div>
       <div className="flex flex-wrap gap-14">
