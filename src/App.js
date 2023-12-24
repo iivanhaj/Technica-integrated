@@ -15,11 +15,11 @@ function App() {
       <Navbar />
       <Landing />
       <About />
+      <Tracks />
+      <Prizes />
+      <Sponsor />
       <ImageSlider />
       <Schedule />
-      <Prizes />
-      <Tracks />
-      <Sponsor />
       <FAQ />
     </div>
   );
