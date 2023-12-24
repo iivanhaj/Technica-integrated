@@ -6,7 +6,7 @@ function Schedule() {
       <div className="Mainapp flex flex-col text-white bg-none  ml-16">
         <div className="Schtitle font-Michroma  text-5xl md:text-7xl flex justify-start pt-40 pr-80 md:justify-center md:pl-20">
           <span>SCHE</span>
-          <span className="text-sky-500 ">DULE</span>
+          <span className="text-[#27A5EF] ">DULE</span>
         </div>
         <div className="mainBody flex  justify-center items-center pt-40 md:pt-72 pr-64 pb-44 md:pb-72 ml-32 lg:ml-0 ">
           <div className="daycon flex flex-col pb-20 pr-20">

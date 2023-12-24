@@ -20,7 +20,7 @@ function App() {
       <Prizes />
       <Tracks />
       <Sponsor />
-      <FAQ/>
+      <FAQ />
     </div>
   );
 }
