@@ -1,12 +1,13 @@
 import "../index.css";
 import FAQList from "./FAQList";
 import { FaDiscord, FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
+import Wireframe from "../imageForWebsite/Wireframe.png";
 
 export default function FAQ() {
   return (
     <div className="bg-cover bg-center h-screen flex flex-col md:grid md:grid-cols-3 bg max-md:flex-col">
       <div className="flex-grow flex flex-col justify-center items-center text-center py-10 md:col-span-2">
-        <h1 className="text-white mb-8 text-8xl md:pl-96 md:ml-36 md:pb-24 max-md:text-4xl">
+        <h1 className="text-white mb-14 text-8xl md:pl-96 md:ml-36 md:pb-24 max-md:text-4xl">
           FAQs
         </h1>
         <FAQList />
@@ -19,7 +20,9 @@ export default function FAQ() {
           </a>
         </div>
       </div>
-      <div className="hidden md:flex md:flex-col md:items-end md:justify-end h-screen"></div>
+      <div className="hidden md:flex md:flex-col md:items-end md:justify-end h-screen">
+        <img src={Wireframe} alt="Wireframe" className="md:max-w-none md:max-h-screen" />
+      </div>
       <div className="flex justify-end items-end p-8 md:p-4 md:col-start-3 md:col-end-4 md:pr-10 md:pb-10">
         <div className="flex gap-5">
           <a

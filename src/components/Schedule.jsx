@@ -8,7 +8,7 @@ function Schedule() {
           <span>SCHE</span>
           <span className="text-[#27A5EF] ">DULE</span>
         </div>
-        <div className="mainBody flex  justify-center items-center pt-40 md:pt-72 pr-64 pb-44 md:pb-72 ml-32 lg:ml-0 ">
+        <div className="mainBody flex  justify-center items-center pt-40 md:pt-72 pr-64 pb-20  ml-32 lg:ml-0 ">
           <div className="daycon flex flex-col pb-20 pr-20">
             <div className="day1 flex flex-col mb-32">
               <div className="daytitle font-Changa text-6xl md:text-7xl  text-slate-200 underline underline-offset-4 font-thin shrink-0 hover:text-7xl md:hover:text-8xl duration-300 delay-100 pr-32 pb-16">
