@@ -40,10 +40,10 @@ function ImageSlider() {
     );
   };
   return (
-    <div className="flex flex-col items-center justify-center h-screen relative min-h-screen bg-cover bg-center bg">
+    <div className="flex flex-col items-center justify-center h-screen relative min-h-screen bg-cover bg-center bg pt-16">
       <p className="text-center mb-8">
-        <span className="heading heading1">ENGA</span>
-        <span className="heading heading2">GEMENTS</span>
+        <span className="heading heading1 font-Michroma">ENGA</span>
+        <span className="heading heading2 font-Michroma">GEMENTS</span>
       </p>
       <div className="caro slider w-2/6 h-3/5 max-md:w-64 max-md:h-60 relative overflow-hidden">
         {images.map((event, index) => (
