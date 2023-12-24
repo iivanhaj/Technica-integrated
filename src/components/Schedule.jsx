@@ -60,9 +60,7 @@ function Schedule() {
                       className="h-9 animate-spin-slow hover:animate-spin-slow delay-150"
                     />
                   </div>
-                  <div className="p-8 max-h-40 max-w-6">
-                    This place is for content
-                  </div>
+                  <div className="p-8">This place is for content</div>
                 </div>
                 <div className="content flex text-lg  md:hover:text-2xl duration-200 delay-100 md:text-xl">
                   <div className="p-8 shrink-0">
