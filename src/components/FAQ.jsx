@@ -6,7 +6,7 @@ export default function FAQ() {
   return (
     <div className="bg-cover bg-center h-screen flex flex-col md:grid md:grid-cols-3 bg max-md:flex-col">
       <div className="flex-grow flex flex-col justify-center items-center text-center py-10 md:col-span-2">
-        <h1 className="text-white mb-8 text-8xl md:pl-96 md:ml-36 md:pb-24 max-md:text-4xl">
+        <h1 className="text-white mb-8 text-8xl md:pl-96 md:ml-36 md:pb-24 max-md:text-5xl">
           FAQs
         </h1>
         <FAQList />
