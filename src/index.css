@@ -35,8 +35,10 @@ code {
 
 @media (max-width: 768px){
   body{
-  background : url("../public/images/mobile.png");
-   background-repeat: no-repeat, repeat;
+    margin: 0;
+    padding: 0;
+    background : url("../public/images/mobile.png");
+    background-repeat: no-repeat, repeat;
     background-size: cover;
 }
 }
