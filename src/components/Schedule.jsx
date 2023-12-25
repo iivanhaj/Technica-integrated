@@ -5,11 +5,11 @@ import blackhole from "../imageForWebsite/blackhole.png";
 function Schedule() {
   return (
     <>
-      <div className="flex flex-col md:flex-row md:pt-36">
+      <div className="flex flex-col md:flex-row md:pt-14">
         <div className="Mainapp flex flex-col text-white ml-4 md:ml-20 ">
           <div className="Schtitle font-Michroma text-3xl md:text-5xl flex justify-center items-center pt-8 md:pt-40 pr-4 ">
-            <span className="md:text-6xl">SCHE</span>
-            <span className="text-[#27A5EF] md:text-6xl">DULE</span>
+            <span className="heading heading1">SCHE</span>
+            <span className="text-[#27A5EF] heading heading2">DULE</span>
           </div>
           <div className="mainBody flex justify-center items-center pt-8 md:pt-40 pr-4 md:pr-64 pb-8 md:pb-44">
             <div className="daycon flex flex-col md:w-4/5">
