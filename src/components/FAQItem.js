@@ -9,18 +9,18 @@ const FAQItem = ({ question, answer }) => {
   };
 
   return (
-    <div className="border-b-4 border-[#27A5EF] ">
+    <div className="border-b-4 font-Michroma border-[#27A5EF] max-md:mx-6">
       <button
-        className="flex justify-between items-left w-full py-4 px-6 text-left focus:outline-none"
+        className="flex justify-between items-left w-full py-4 px-8 text-left focus:outline-none"
         onClick={toggleFAQ}
       >
         <span className="font-medium text-white ">{question}</span>
-        <span className="text-white pl-72 max-md:pl-40">
+        <span className="text-white pl-40 max-md:pl-10">
           {isOpen ? "-" : "+"}
         </span>
       </button>
       {isOpen && (
-        <div className="py-2 pb-4 px-6 text-white text-left max-md:text-sm max-md:w-80 h-auto">
+        <div className="py-2 pb-4 px-6 text-white text-left max-md:text-sm max-md:w-64 h-auto">
           <p>{answer}</p>
         </div>
       )}

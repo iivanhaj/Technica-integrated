@@ -131,7 +131,17 @@ html {
   height: 100%;
     
 }
+<<<<<<< HEAD
 } 
 .shadow-white {
     box-shadow: 4px 4px 8px rgba(255, 255, 255, 0.2);
   }
+=======
+}
+
+
+/* Apply to all scrollbars in the document */
+::-webkit-scrollbar {
+  width: 1px; /* Set the width of the scrollbar */
+}
+>>>>>>> 314030bbffd3d65c11f023b6b5b0f1290326ac58
