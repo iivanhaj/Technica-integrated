@@ -2,8 +2,8 @@ import React from "react";
 
 function About() {
   return (
-    <div className="relative h-screen mb-8">
-      <div className="flex flex-col items-center justify-center h-screen relative min-h-screen bg-cover bg-center bg mt-16">
+    <div className="relative h-screen mb-8" id="about">
+      <div className="flex flex-col items-center justify-center h-screen relative min-h-screen bg-cover bg-center bg ">
         <p className="Schtitle font-Michroma text-center mb-8">
           <span className="heading heading1">AB</span>
           <span className="heading heading2">OUT</span>
