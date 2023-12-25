@@ -9,6 +9,7 @@ import Prizes from "./components/Prizes";
 import Tracks from "./components/Tracks";
 import FAQ from "./components/FAQ";
 import Judges from "./components/Judges";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -19,9 +20,11 @@ function App() {
       <Tracks />
       <Prizes />
       <Judges />
+      <Sponsor />
       <Schedule />
       <ImageSlider />
       <FAQ />
+      <Footer />
     </div>
   );
 }
