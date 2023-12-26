@@ -26,18 +26,18 @@ export const NavDesktop = () => {
 
   return (
     <div className="flex flex-col lg:flex-row items-center justify-between p-4 lg:p-6">
-      <span className="text-lg lg:text-xl text-white font-poppins mb-2 lg:mb-0">
+      <span className="text-lg md:text-4xl text-white font-poppins mb-2 md:mb-0">
         TECH
-        <span style={{ color: "#27A5EF" }}>NICA</span>
+        <span className="text-[#27A5EF]">NICA</span>
       </span>
-      <ul className="hidden lg:flex lg:items-center gap-12 text-md">
+      <ul className="hidden lg:flex lg:items-center mr-5 gap-12 text-2xl">
         {routes.map((route) => {
           const { href, title } = route;
           return (
             <li key={title}>
               <a
                 href={href}
-                className="flex items-center gap-1 hover:text-neutral-400 transition-all text-white font-poppins"
+                className="flex items-center gap-1 hover:text-[#27A5EF] hover:text-3xl duration-500 transition-all text-white font-poppins"
                 onClick={(e) => handleNavLinkClick(e, href)}
               >
                 {title}
