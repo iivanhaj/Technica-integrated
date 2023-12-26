@@ -30,14 +30,14 @@ export const NavDesktop = () => {
         TECH
         <span style={{ color: "#27A5EF" }}>NICA</span>
       </span>
-      <ul className="hidden lg:flex lg:items-center gap-5 text-sm">
+      <ul className="hidden lg:flex lg:items-center gap-12 text-md">
         {routes.map((route) => {
           const { href, title } = route;
           return (
             <li key={title}>
               <a
                 href={href}
-                className="flex items-center gap-1 hover:text-neutral-400 transition-all text-white"
+                className="flex items-center gap-1 hover:text-neutral-400 transition-all text-white font-poppins"
                 onClick={(e) => handleNavLinkClick(e, href)}
               >
                 {title}
