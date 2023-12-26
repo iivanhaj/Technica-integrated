@@ -10,7 +10,7 @@ export default function FAQ() {
         <FAQList />
         <div className="flex items-start justify-start text-center pt-8">
           <a
-            href="/"
+            href="https://drive.google.com/file/d/1mBNDdQdZjdECvB5jtT9Od40kfTQVJJp9/view?usp=sharing"
             className="bg-transparent hover:bg-[#27A5EF] text-white font-semibold hover:text-black py-2 px-4 border border-[#27A5EF] hover:border-transparent rounded"
           >
             CODE OF CONDUCT

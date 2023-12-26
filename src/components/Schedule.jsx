@@ -1,24 +1,47 @@
 import React from "react";
 import bulletin from "../imageForWebsite/bulletin.png";
-import blackhole from "../imageForWebsite/blackhole.png";
 
 function Schedule() {
+  const dayContent = {
+    day1: [
+      "9:00 Inauguration ",
+      "10:00 Hackathon Starts",
+      "16:00 Review 1",
+      "19:00 Results",
+      "23:00 Ice Breaking Session",
+    ],
+    day2: [
+      "3:00 Review 2",
+      "6:00 Results",
+      "11:00 Project Work and Prototyping",
+      "16:00 Speaker Session",
+      "18:00 Mentor Interaction",
+      "23:00 Ice Breaking Session",
+    ],
+    day3: [
+      "3:00 Review 3",
+      "5:30 Final Results",
+      "6:00 Presentation Preparation",
+      "9:00 Final Pitches",
+    ],
+  };
+
   return (
     <>
       <div className="flex flex-col md:flex-row md:pt-14">
-        <div className="Mainapp flex flex-col text-white ml-4 md:ml-20 ">
+        <div className="Mainapp flex flex-col text-white ml-4 md:ml-20">
           <div className="Schtitle font-Michroma text-3xl md:text-5xl flex justify-center items-center pt-8 md:pt-40 pr-4 ">
             <span className="heading heading1">SCHE</span>
             <span className="text-[#27A5EF] heading heading2">DULE</span>
           </div>
-          <div className="mainBody flex justify-center items-center pt-8 md:pt-40 pr-4 md:pr-64 pb-8 md:pb-44">
-            <div className="daycon flex flex-col md:w-4/5">
-              <div className="day1 flex flex-col mb-8 md:mb-32">
+          <div className="mainBody flex justify-center md:justify-start items-center md:items-start pt-8 md:pt-40 pr-4 md:pr-64 pb-8 md:pb-44">
+            <div className="daycon flex flex-col md:pl-20">
+              <div className="day1 flex flex-col mb-8 md:mb-12 md:ml-72">
                 <div className="daytitle font-Changa text-4xl md:text-7xl text-slate-200 underline underline-offset-4 font-thin hover:text-7xl md:hover:text-8xl duration-300 delay-100 mb-4">
                   <h1 className="text-left md:pb-10">DAY - 1</h1>
                 </div>
-                <div className="daycon flex flex-col">
-                  {Array.from({ length: 3 }, (_, index) => (
+                <div className="daycon flex flex-col w-80">
+                  {dayContent.day1.map((content, index) => (
                     <div
                       key={index}
                       className="content flex text-sm md:text-base md:hover:text-lg duration-200 delay-100 mb-2"
@@ -30,17 +53,17 @@ function Schedule() {
                           className="h-5 animate-spin-slow hover:animate-spin delay-150"
                         />
                       </div>
-                      <div className="p-2">This place is for content</div>
+                      <div className="p-2">{content}</div>
                     </div>
                   ))}
                 </div>
               </div>
-              <div className="day2 flex flex-col mt-4 md:mt-0">
-                <div className="daytitle font-Changa text-4xl md:text-7xl text-slate-200 underline underline-offset-4 font-thin hover:text-7xl md:hover:text-8xl duration-200 delay-100 mb-4 md:pt-40 md:mt-60">
-                  <h1 className="text-left pb-10 md:pt-80">DAY - 2</h1>
+              <div className="day2 flex flex-col mt-4 md:mt-8 md:ml-20">
+                <div className="daytitle font-Changa text-4xl md:text-7xl text-slate-200 underline underline-offset-4 font-thin hover:text-7xl md:hover:text-8xl duration-200 delay-100 md:mt-64">
+                  <h1 className="text-left pb-10 md:pt-8">DAY - 2</h1>
                 </div>
-                <div className="daycon flex flex-col md:pb-96">
-                  {Array.from({ length: 3 }, (_, index) => (
+                <div className="daycon flex flex-col md:pb-40 w-80">
+                  {dayContent.day2.map((content, index) => (
                     <div
                       key={index}
                       className="content flex text-sm md:text-base md:hover:text-lg duration-200 delay-100 mb-2"
@@ -52,7 +75,29 @@ function Schedule() {
                           className="h-5 animate-spin-slow hover:animate-spin-slow delay-150"
                         />
                       </div>
-                      <div className="p-2">This place is for content</div>
+                      <div className="p-2">{content}</div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+              <div className="day3 flex flex-col mt-4 md:ml-60">
+                <div className="daytitle font-Changa text-4xl md:text-7xl text-slate-200 underline underline-offset-4 font-thin hover:text-7xl md:hover:text-8xl duration-200 delay-100 md:mt-20">
+                  <h1 className="text-left pb-10 md:pt-3">DAY - 3</h1>
+                </div>
+                <div className="daycon flex flex-col md:pb-40 w-80">
+                  {dayContent.day3.map((content, index) => (
+                    <div
+                      key={index}
+                      className="content flex text-sm md:text-base md:hover:text-lg duration-200 delay-100 mb-2"
+                    >
+                      <div className="p-2 shrink-0">
+                        <img
+                          src={bulletin}
+                          alt="bulletin"
+                          className="h-5 animate-spin-slow hover:animate-spin-slow delay-150"
+                        />
+                      </div>
+                      <div className="p-2">{content}</div>
                     </div>
                   ))}
                 </div>

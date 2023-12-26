@@ -23,7 +23,7 @@ function Tracks () {
   }, []);
 
   return (
-    <div className="relative h-screen mb-8">
+    <div className="relative h-screen mb-8 " id='tracks'>
       <div className="relative inset-0 flex justify-left ">
         <img
           src={isMobile? Rover2 : Rover1}
