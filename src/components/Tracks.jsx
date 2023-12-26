@@ -7,7 +7,7 @@ import medical from '../imageForWebsite/medical.png';
 import education from '../imageForWebsite/education.png';
 import currency from '../imageForWebsite/currency.png';
 
-const Tracks = () => {
+function Tracks () {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
 
   const handleResize = () => {

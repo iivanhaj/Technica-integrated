@@ -1,6 +1,6 @@
 import "./App.css";
 import Sponsor from "./components/Sponsor";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar/Navbar";
 import Landing from "./components/Landing";
 import About from "./components/About";
 import ImageSlider from "./components/ImageSlider";
@@ -16,15 +16,15 @@ function App() {
     <div className="App">
       <Navbar />
       <Landing />
-      <About />
-      <Tracks />
-      <Prizes />
+      <About id="about"/>
+      <Tracks id="tracks"/>
+      <Prizes id="prizes"/>
       <Judges />
       <Sponsor />
       <Schedule />
       <ImageSlider />
       <FAQ />
-      <Footer />
+      <Footer id="footer"/>
     </div>
   );
 }
