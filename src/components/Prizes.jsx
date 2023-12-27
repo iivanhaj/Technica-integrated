@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import prizesScreenDesktop from "../imageForWebsite/prizes_screen.png";
-import prizesScreenMobile from "../imageForWebsite/mobile_prizes.png";
+import prizesScreenDesktop from "../imageForWebsite/prizes_screen.webp";
+import prizesScreenMobile from "../imageForWebsite/mobile_prizes.webp";
 
 function Prizes() {
   const [isMobileView, setIsMobileView] = useState(window.innerWidth < 768);

@@ -7,7 +7,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: url("../public/images/tech.jpg");
+    background: url("../public/images/tech.webp");
    background-repeat: no-repeat, repeat;
     background-size: cover;
     
@@ -37,7 +37,7 @@ code {
   body{
     margin: 0;
     padding: 0;
-    background : url("../public/images/mobile.png");
+    background : url("../public/images/mobile.webp");
     background-repeat: no-repeat, repeat;
     background-size: cover;
     overflow-x: hidden;
@@ -124,7 +124,7 @@ html {
 }
 @media (min-width: 1024px) {
   .Mainapp{
-  background : url("../public/images/finalimage.png");
+  background : url("../public/images/finalimage.webp");
   background-repeat: no-repeat, repeat;
   background-size: cover;
   width: 100%;

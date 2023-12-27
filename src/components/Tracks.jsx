@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
-import Rover1 from "../imageForWebsite/combi_desk.png";
-import Rover2 from "../imageForWebsite/combi_mob.png";
+import Rover1 from "../imageForWebsite/combi_desk.webp";
+import Rover2 from "../imageForWebsite/combi_mob.webp";
 import TrackCard from "./TrackCard";
-import scholar from "../imageForWebsite/scholar.png";
-import medical from "../imageForWebsite/medical.png";
-import education from "../imageForWebsite/education.png";
-import currency from "../imageForWebsite/currency.png";
+import scholar from "../imageForWebsite/scholar.webp";
+import medical from "../imageForWebsite/medical.webp";
+import education from "../imageForWebsite/education.webp";
+import currency from "../imageForWebsite/currency.webp";
 
 function Tracks() {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);

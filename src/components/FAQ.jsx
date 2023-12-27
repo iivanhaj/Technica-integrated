@@ -1,6 +1,6 @@
 import "../index.css";
 import FAQList from "./FAQList";
-import Wireframe from "../imageForWebsite/Wireframe.png";
+import Wireframe from "../imageForWebsite/Wireframe.webp";
 
 export default function FAQ() {
   return (
