@@ -1,5 +1,5 @@
 import React from "react";
-import bulletin from "../imageForWebsite/bulletin.png";
+import bulletin from "../imageForWebsite/bulletin.webp";
 
 function Schedule() {
   const dayContent = {

@@ -1,4 +1,4 @@
-import google from "../imageForWebsite/google.png";
+import google from "../imageForWebsite/google.webp";
 
 function Sponsor() {
   return (

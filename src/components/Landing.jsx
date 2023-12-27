@@ -4,7 +4,7 @@ function Landing() {
     <div className=" m-5 text-center ">
       <div className=" flex  justify-center items-center">
         <img
-          src="./images/Logo.png"
+          src="./images/Logo.webp"
           className="md:h-72 h-64"
           alt="logo of website"
         />
