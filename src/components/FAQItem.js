@@ -15,7 +15,7 @@ const FAQItem = ({ question, answer }) => {
         onClick={toggleFAQ}
       >
         <span className="font-medium text-white ">{question}</span>
-        <span className="text-white pl-40 max-md:pl-10">
+        <span className="text-white pl-5 max-md:pl-10">
           {isOpen ? "-" : "+"}
         </span>
       </button>
