@@ -12,6 +12,35 @@ body {
     background-size: cover;
     
 }
+
+body {
+  background-color: #000;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+
+.star {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  background: white;
+  border-radius: 50%;
+  animation: twinkling 10s infinite;
+}
+
+
+
+@keyframes twinkling {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+
+
 html {
   scroll-behavior: smooth;
   margin: 0px !important;
