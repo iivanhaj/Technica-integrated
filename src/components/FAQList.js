@@ -17,8 +17,8 @@ const FAQList = () => {
       answer: "Of course not. We have numerous fun-filled mini-events in the bag for you. Stay tuned to our social media handles for detailed updates on the mini-events.",
     },
     {
-      question: 'How is the environment? Will your environment support any language? Will you provide any IDE and DB for us to work on ideas',
-      answer: "You have to develop the entire software application on your local system and push the code to GitHub repository and submit repository link on Unstop."
+      question: 'Am I allowed to collaborate with participants from different colleges?',
+      answer: "Offline participants are to exclusively team up with VITians, while others can have open collaborations."
     },
     {
       question: 'Can I bring my previous project to the hackathon?',
@@ -44,11 +44,22 @@ const FAQList = () => {
     
   ];
 
+  const halfLength = Math.ceil(faqData.length / 2);
+  const leftColumn = faqData.slice(0, halfLength);
+  const rightColumn = faqData.slice(halfLength);
+
   return (
-    <div className="max-w-lg mx-auto">
-      {faqData.map((faq, index) => (
-        <FAQItem key={index} question={faq.question} answer={faq.answer} />
-      ))}
+    <div className="grid grid-cols-1 md:grid-cols-2 md:gap-36 md:mx-40">
+      <div className=''>
+        {leftColumn.map((faq, index) => (
+          <FAQItem key={index} question={faq.question} answer={faq.answer} />
+        ))}
+      </div>
+      <div>
+        {rightColumn.map((faq, index) => (
+          <FAQItem key={index + halfLength} question={faq.question} answer={faq.answer} />
+        ))}
+      </div>
     </div>
   );
 };

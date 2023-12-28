@@ -15,7 +15,7 @@ function Landing() {
           THREE: THREE,
           color: 0x000000,
           waveHeight: 20,
-          shininess: 20,
+          shininess: 50,
           waveSpeed: 1.5,
           zoom: 0.75
         })
@@ -43,7 +43,7 @@ function Landing() {
           Initiate | <span className="text-[#27A5EF]">Innovate</span> | Inspire
         </h2>
       </div>
-      <h3 className="text-white text-2xl">11th - 13th January 2023</h3>
+      <h3 className="text-white text-2xl">11th - 13th January 2024</h3>
       <div className="p-5 ">
         <button
           type="button"

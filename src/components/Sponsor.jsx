@@ -1,5 +1,4 @@
 import google from "../imageForWebsite/google.webp";
-
 function Sponsor() {
   return (
     <div className="font-Michroma mb-72 md:mb-96">
@@ -25,7 +24,7 @@ function Sponsor() {
             </div>
           </div>
           <h2 className="text-white md:text-3xl col-span-4 md:mt-8 ">Community Sponsors</h2>
-          <div className="md:col-span-2 flex flex-col items-center justify-center ">
+          <div className="md:col-span-1 flex flex-col items-center justify-center ">
             <div className="h-20 w-20 md:h-40 md:w-40 rounded-full bg-blue-500 flex items-center justify-center">
               <img
                 className="rounded-full border-8 border-blue-500"
@@ -40,6 +39,20 @@ function Sponsor() {
             </div>
           </div>
           <div className="md:col-span-2 flex flex-col items-center justify-center ">
+            <div className="h-20 w-20 md:h-40 md:w-40 rounded-full bg-blue-500 flex items-center justify-center">
+              <img
+                className="rounded-full border-8 border-blue-500"
+                src={google}
+                alt="Google Logo"
+              />
+            </div>
+            <div className="flex flex-col items-center justify-center mt-2">
+              <p className="text-white text-2xl max-md:text-sm text-center whitespace-nowrap">
+                Echo 3D
+              </p>
+            </div>
+          </div>
+          <div className="md:col-span-1 flex flex-col items-center justify-center ">
             <div className="h-20 w-20 md:h-40 md:w-40 rounded-full bg-blue-500 flex items-center justify-center">
               <img
                 className="rounded-full border-8 border-blue-500"

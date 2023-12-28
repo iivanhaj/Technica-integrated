@@ -20,9 +20,10 @@ function Schedule() {
     ],
     day3: [
       "3:00 Review 3",
-      "5:30 Final Results",
+      "5:30 Final Round",
       "6:00 Presentation Preparation",
       "9:00 Final Pitches",
+      "12:00 Prize Distribution" 
     ],
   };
 

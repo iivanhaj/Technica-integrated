@@ -9,6 +9,7 @@ import Tracks from "./components/Tracks";
 import FAQ from "./components/FAQ";
 import Judges from "./components/Judges";
 import Footer from "./components/Footer";
+import { ReactNebula, smallSolarSystem, bigSolarSystem } from "@flodlc/nebula";
 
 function App() {
   return (

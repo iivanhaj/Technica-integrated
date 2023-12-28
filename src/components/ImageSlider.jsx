@@ -76,3 +76,49 @@ function ImageSlider() {
 }
 
 export default ImageSlider;
+/*
+
+import * as React from 'react';
+import { Carousel, CarouselRef, CarouselItem } from 'react-round-carousel';
+import image1png from "../imageForWebsite/image1.webp";
+import image2png from "../imageForWebsite/image2.webp";
+import image3png from "../imageForWebsite/image3.webp";
+
+const images = [    
+'image1png.com',  
+'image2png.com',   
+'image3png.com'
+];
+
+const items = images.map((image, index) => ({
+  alt: `Image ${index + 1}`,
+  image: image,
+  content: (
+    <div className="App-268268">
+      <strong>Round Carousel</strong>
+      <span>Slide number {index + 1}</span>
+    </div>
+  ),
+}));
+
+
+const ImageSlider = () => {
+  const carouselRef = React.useRef();
+
+  const carouselSettings = {
+    itemWidth: 1000,
+    slidePnClick: true, // Set the width of each slide
+    slideHeight: 300, // Set the height of each slide
+    spaceBetween: 200, // Set the spacing between slides
+  };
+
+  return (
+    <div className = 'App-268268'>
+        <Carousel ref={carouselRef} items={items} slideOnClick {...carouselSettings} />
+    </div>
+  )
+};
+
+export default ImageSlider;
+
+*/
