@@ -1,6 +1,5 @@
 import "./App.css";
 import Sponsor from "./components/Sponsor";
-import Navbar from "./components/Navbar/Navbar";
 import Landing from "./components/Landing";
 import About from "./components/About";
 import ImageSlider from "./components/ImageSlider";
@@ -14,7 +13,6 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
-      <Navbar />
       <Landing />
       <About id="about"/>
       <Tracks id="tracks"/>

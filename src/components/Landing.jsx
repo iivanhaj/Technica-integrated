@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import Navbar from "./Navbar/Navbar";
 import WAVES from "vanta/dist/vanta.waves.min";
 import * as THREE from "three";
 
@@ -14,7 +15,7 @@ function Landing() {
           THREE: THREE,
           color: 0x000000,
           waveHeight: 20,
-          shininess: 50,
+          shininess: 20,
           waveSpeed: 1.5,
           zoom: 0.75
         })
@@ -25,7 +26,8 @@ function Landing() {
     };
   }, [vantaEffect]);
   return (
-    <div className="text-center " ref={vantaRef}>
+    <div className="text-center h-screen" ref={vantaRef}>
+      <Navbar />
       <div className=" flex  justify-center items-center">
         <img
           src="./images/Logo.webp"
@@ -41,7 +43,7 @@ function Landing() {
           Initiate | <span className="text-[#27A5EF]">Innovate</span> | Inspire
         </h2>
       </div>
-      <h3 className="text-white text-2xl">4th - 5th June 2023</h3>
+      <h3 className="text-white text-2xl">11th - 13th January 2023</h3>
       <div className="p-5 ">
         <button
           type="button"
