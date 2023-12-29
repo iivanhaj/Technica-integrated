@@ -5,7 +5,7 @@ import p4 from "../imageForWebsite/comets/p4.png";
 
 function Sponsor() {
   return (
-    <div className="font-Michroma mb-72 md:mb-96">
+    <div className="font-Michroma mb-72 md:mb-96 min-h-screen ">
       <div className="relative bg h-screen mt-10">
           <img
             src={p3}

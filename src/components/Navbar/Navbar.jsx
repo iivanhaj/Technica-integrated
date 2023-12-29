@@ -18,9 +18,9 @@ const Navbar = () => {
   }, []);
 
   return (
-    <>
+    <div style={{ position: 'relative', zIndex: 10 }}>
       {windowWidth < 768 ? ( <NavMobile /> ) : ( <NavDesktop /> )}
-    </>
+    </div>
   );
 };
 
