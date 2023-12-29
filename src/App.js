@@ -2,20 +2,17 @@ import "./App.css";
 import Sponsor from "./components/Sponsor";
 import Landing from "./components/Landing";
 import About from "./components/About";
-import ImageSlider from "./components/ImageSlider";
 import Schedule from "./components/Schedule";
 import Prizes from "./components/Prizes";
 import Tracks from "./components/Tracks";
 import FAQ from "./components/FAQ";
 import Judges from "./components/Judges";
 import Footer from "./components/Footer";
-import CustomCursor from "./components/CustomeCursor";
-import { ReactNebula, smallSolarSystem, bigSolarSystem } from "@flodlc/nebula";
+import MainCarousel from "./components/Carousel/MainCarousel";
 
 function App() {
   return (
-    <div className="App">
-      <CustomCursor />
+    <div className="App flex flex-col">
       <Landing />
       <About id="about" />
       <Tracks id="tracks" />
@@ -23,7 +20,8 @@ function App() {
       <Judges />
       <Sponsor />
       <Schedule />
-      <ImageSlider />
+
+      <MainCarousel />
       <FAQ />
       <Footer id="footer" />
     </div>

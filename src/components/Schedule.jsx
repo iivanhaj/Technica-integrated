@@ -1,5 +1,6 @@
 import React from "react";
 import bulletin from "../imageForWebsite/bulletin.webp";
+import { useParallax } from "react-scroll-parallax";
 
 function Schedule() {
   const dayContent = {
@@ -23,13 +24,19 @@ function Schedule() {
       "5:30 Final Round",
       "6:00 Presentation Preparation",
       "9:00 Final Pitches",
-      "12:00 Prize Distribution" 
+      "12:00 Prize Distribution",
     ],
   };
+  const scroll =
+    useParallax <
+    HTMLDivElement >
+    {
+      scale: [0.5, 1, "easeInQuad"],
+    };
 
   return (
     <>
-      <div className="flex flex-col md:flex-row md:pt-14">
+      <div className="flex flex-col md:flex-row md:pt-14 mt-4 sm:mt-6 md:mt-10 lg:mt-16">
         <div className="Mainapp flex flex-col text-white ml-4 md:ml-20">
           <div className="Schtitle font-Michroma text-3xl md:text-5xl flex justify-center items-center pt-8 md:pt-40 pr-4 ">
             <span className="heading heading1">SCHE</span>
@@ -38,8 +45,11 @@ function Schedule() {
           <div className="mainBody flex justify-center md:justify-start items-center md:items-start pt-8 md:pt-40 pr-4 md:pr-64 pb-8 md:pb-44">
             <div className="daycon flex flex-col md:pl-20">
               <div className="day1 flex flex-col mb-8 md:mb-12 md:ml-72">
-                <div className="daytitle font-Changa text-4xl md:text-7xl text-slate-200 underline underline-offset-4 font-thin hover:text-7xl md:hover:text-8xl duration-300 delay-100 mb-4">
-                  <h1 className="text-left md:pb-10">DAY - 1</h1>
+                <div
+                  ref={scroll.ref}
+                  className="daytitle font-Changa text-4xl md:text-7xl text-slate-200 underline underline-offset-4 font-thin hover:text-7xl md:hover:text-8xl duration-300 delay-100 mb-4"
+                >
+                  <div className="text-left md:pb-10">DAY - 1</div>
                 </div>
                 <div className="daycon flex flex-col w-80">
                   {dayContent.day1.map((content, index) => (

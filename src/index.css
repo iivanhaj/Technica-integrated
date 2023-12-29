@@ -10,6 +10,7 @@ body {
     background-color: #000000;
    background-repeat: no-repeat, repeat;
     background-size: cover;
+    overflow: hidden;
     cursor: none;
     
 }
@@ -32,12 +33,25 @@ body {
   animation: twinkling 10s infinite;
 }
 
-
-
 @keyframes twinkling {
   0% { opacity: 0; }
   50% { opacity: 1; }
   100% { opacity: 0; }
+}
+
+/* Styles for the comets */
+.comet {
+  position: absolute;
+  animation: rotate 30s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 
@@ -175,6 +189,15 @@ html {
 /* Apply to all scrollbars in the document */
 ::-webkit-scrollbar {
   width: 1px; /* Set the width of the scrollbar */
+}
+
+.track-card {
+  transition: transform 0.3s ease, scale 0.3s ease;
+}
+
+.track-card:hover {
+  transform: rotate(5deg);
+  scale: 1.1;
 }
 .custom-cursor {
   position: fixed;

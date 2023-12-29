@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import prizesScreenDesktop from "../imageForWebsite/prizes_screen.webp";
 import prizesScreenMobile from "../imageForWebsite/mobile_prizes.webp";
+import p4 from "../imageForWebsite/comets/p4.png";
+import p1 from "../imageForWebsite/comets/p1.png";
 
 function Prizes() {
   const [isMobileView, setIsMobileView] = useState(window.innerWidth < 768);
@@ -17,7 +19,7 @@ function Prizes() {
   }, []);
 
   return (
-    <div id="prizes">
+    <div id="prizes" className="mt-4 sm:mt-6 md:mt-8 lg:mt-12">
       <p className="Schtitle font-Michroma text-center mb-8">
         <span className="heading heading1">PR</span>
         <span className="heading heading2">IZES</span>
@@ -29,6 +31,16 @@ function Prizes() {
           style={{ width: "80%", height: "80%" }}
           className="w-80 h-80 sm:w-60 sm:h-60 md:w-72 md:h-72 lg:w-96 lg:h-96 xl:w-104 xl:h-104 2xl:w-120 2xl:h-120"
         />
+         <img
+            src={p4}
+            alt="Comet"
+            className="comet absolute bottom-24 max-md:left-0 left-6 md:w-1/12 w-16"
+          />
+          <img
+            src={p1}
+            alt="Comet"
+            className="comet absolute top-24 max-md:right-3 right-8 md:w-1/12 w-16"
+          />
       </div>
     </div>
   );

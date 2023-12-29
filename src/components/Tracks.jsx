@@ -2,10 +2,12 @@ import React, { useState, useEffect } from "react";
 import Rover1 from "../imageForWebsite/combi_desk.webp";
 import Rover2 from "../imageForWebsite/combi_mob.webp";
 import TrackCard from "./TrackCard";
-import scholar from "../imageForWebsite/scholar.webp";
-import medical from "../imageForWebsite/medical.webp";
-import education from "../imageForWebsite/education.webp";
-import currency from "../imageForWebsite/currency.webp";
+import ML from "../imageForWebsite/ML.png";
+import OpenIno from "../imageForWebsite/OpenIno.png";
+import Fintech from "../imageForWebsite/FinTech.png";
+import hardware from "../imageForWebsite/Hardware.png";
+
+import CustomeCursor from "../components/CustomeCursor";
 
 function Tracks() {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
@@ -23,8 +25,11 @@ function Tracks() {
   }, []);
 
   return (
-    <div className="relative h-screen mb-8 " id='tracks'>
-
+    <div
+      className="cursor-none relative h-screen mb-8 mt-4 sm:mt-6 md:mt-8 lg:mt-12"
+      id="tracks"
+    >
+      <CustomeCursor />
       <div className="relative inset-0 flex justify-left ">
         <img
           src={isMobile ? Rover2 : Rover1}
@@ -39,10 +44,14 @@ function Tracks() {
             : "top-[15%] left-2/3 h-1/2 md:top-[30%] md:left-3/4 md:transform md:-translate-x-1/2 md:h-1/4 lg:left-[80%] lg:h-1/8 lg:top:[30%"
         } flex flex-col gap-0 md:gap-4 lg:gap-0`}
       >
-        <TrackCard title="TRACK 01" icon={scholar} positionRight={true} />
-        <TrackCard title="TRACK 02" icon={medical} positionRight={false} />
-        <TrackCard title="TRACK 03" icon={education} positionRight={true} />
-        <TrackCard title="TRACK 04" icon={currency} positionRight={false} />
+        <TrackCard title="Technic.ai" icon={ML} positionRight={true} />
+        <TrackCard title="Hardware" icon={Fintech} positionRight={false} />
+        <TrackCard
+          title="Open Innovation"
+          icon={OpenIno}
+          positionRight={true}
+        />
+        <TrackCard title="Fin-tech" icon={hardware} positionRight={false} />
       </div>
     </div>
   );
