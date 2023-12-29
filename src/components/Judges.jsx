@@ -12,8 +12,8 @@ function Judges() {
         JU<span className="text-[#27A5EF]">DGES</span>
       </h1>
       <div className="min-h-screen bg-black flex flex-col justify-center py-6 sm:py-12">
-        <div className="p-6 container mx-auto">
-          <div className="md:grid md:gap-6 md:grid-cols-2 lg:grid-cols-3 justify-center">
+        <div className="px-20 max-md:px-20 lg:px-80 container mx-auto">
+          <div className="md:grid md:px-6 md:gap-16 md:grid-cols-2 justify-center">
             <article className="shadow-white text-white p-6 mb-6 border border-gray-100 transition duration-300 group transform hover:-translate-y-2 hover:shadow-2xl rounded-2xl cursor-pointer">
               <div className="relative mb-4 rounded-2xl">
                 <img
@@ -136,7 +136,6 @@ function Judges() {
                 </a>
               </h3>
             </article>
-            <div className="md:flex md:justify-center md:col-span-3 md:gap-10 md:mb-36 md:ml-64 md:mr-64">
               <article className="shadow-white text-white p-6 mb-6 border border-gray-100 transition duration-300 group transform hover:-translate-y-2 hover:shadow-2xl rounded-2xl cursor-pointer">
                 <div className="relative mb-4 rounded-2xl">
                   <img
@@ -173,43 +172,6 @@ function Judges() {
                   </a>
                 </h3>
               </article>
-              <article className="shadow-white text-white p-6 mb-6 border border-gray-100 transition duration-300 group transform hover:-translate-y-2 hover:shadow-2xl rounded-2xl cursor-pointer">
-                <div className="relative mb-4 rounded-2xl">
-                  <img
-                    className="max-h-80 rounded-2xl w-full object-cover transition-transform duration-300 transform group-hover:scale-105"
-                    src="https://images.unsplash.com/photo-1621967314091-f7151d92bf49?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDEwfGhtZW52UWhVbXhNfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-                    alt=""
-                  />
-                  <LinkedInLink profileUrl={"Linkdin"} />
-                </div>
-                <div className="flex justify-between items-center w-full pb-4 mb-auto">
-                  <div className="flex items-center">
-                    <div className="flex flex-1">
-                      <div>
-                        <p className="text-sm font-semibold">
-                          Lorem <span className="text-[#27A5EF]">Ipsum</span>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex justify-end">
-                    <div className="text-sm flex items-center text-gray-500">
-                      Occupation
-                      {/* give some sort of icon here representing the occupation */}
-                    </div>
-                  </div>
-                </div>
-                <h3 className="font-medium text-xl leading-8">
-                  <a
-                    href="#2"
-                    className="block relative group-hover:text-[#27A5EF] transition-colors duration-200"
-                  >
-                    Lorem ipsum dolor sit amet, Sed ad minus quam voluptate?
-                    {/* this is some line about the speaker or the designation */}
-                  </a>
-                </h3>
-              </article>
-            </div>
           </div>
 
           <div className="md:grid md:gap-6 md:grid-cols-2 lg:grid-cols-3 mb">
