@@ -1,8 +1,17 @@
 import google from "../imageForWebsite/google.webp";
+import p2 from "../imageForWebsite/comets/p2.png";
+import p3 from "../imageForWebsite/comets/p3.png";
+import p4 from "../imageForWebsite/comets/p4.png";
+
 function Sponsor() {
   return (
     <div className="font-Michroma mb-72 md:mb-96">
       <div className="relative bg h-screen mt-10">
+          <img
+            src={p3}
+            alt="Comet"
+            className="comet absolute top-72 left-72  md:w-1/12 w-16 max-md:hidden "
+          />
         <p className="text-center mb-8">
           <span className="heading heading1">SPO</span>
           <span className="heading heading2">NSORS</span>
@@ -96,6 +105,11 @@ function Sponsor() {
             </div>
           </div>
         </div>
+        <img
+            src={p4}
+            alt="Comet"
+            className="comet absolute bottom-32 right-28 md:w-1/12 w-16 max-md:hidden"
+          />
       </div>
     </div>
   );

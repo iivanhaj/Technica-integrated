@@ -11,3 +11,5 @@ for (let i = 0; i < starCount; i++) {
   body.appendChild(star);
 }
 
+
+
