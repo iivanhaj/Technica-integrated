@@ -25,7 +25,7 @@ export const NavDesktop = () => {
   };
 
   return (
-    <div className="flex flex-col lg:flex-row items-center justify-between p-4 lg:p-6">
+    <div className="flex flex-col lg:flex-row items-center justify-between p-4 lg:p-6 bg-transparent">
       <span className="text-lg md:text-4xl text-white font-poppins mb-2 md:mb-0">
         TECH
         <span className="text-[#27A5EF]">NICA</span>
