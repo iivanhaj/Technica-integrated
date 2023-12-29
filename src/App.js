@@ -13,7 +13,7 @@ import { ReactNebula, smallSolarSystem, bigSolarSystem } from "@flodlc/nebula";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App flex flex-col">
       <Landing />
       <About id="about"/>
       <Tracks id="tracks"/>

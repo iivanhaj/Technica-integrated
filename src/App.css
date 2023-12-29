@@ -41,30 +41,3 @@
     transform: rotate(360deg);
   }
 }
-
-
-.App-268268{
-  /* display: flex;
-  justify-content: center;
-  align-items: flex-start; */
-  height: 100vh;
-  position: relative;
-}
-
-.carousel{
-  /* width: 75vw !important; */
-  height: 75vh !important;
-}
-
-.carousel__slide{
-  border: none !important;
-  /* scale: 3.5; */
-  width: 30vw !important;
-}
-.carousel__slide-overlay:hover{
-  display: none !important;
-}
-
-.carousel_slide:hover .carousel_slide-overlay {
-  opacity: 0;
-}

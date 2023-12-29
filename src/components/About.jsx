@@ -17,8 +17,8 @@ function About() {
   }, []);
 
   return (
-    <div className="relative h-screen mb-2" id="about">
-      <div className="flex flex-col items-center justify-center h-screen relative min-h-screen bg-cover bg-center bg ">
+    <div className="relative min-h-screen mb-2 mt-4 md:mt-8 lg:mt-12" id="about">
+      <div className="flex flex-col items-center justify-center min-h-screen relative min-h-screen bg-cover bg-center bg ">
         <p className="Schtitle font-Michroma text-center mb-8">
           <span className="heading heading1">AB</span>
           <span className="heading heading2">OUT</span>

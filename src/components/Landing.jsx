@@ -26,16 +26,16 @@ function Landing() {
     };
   }, [vantaEffect]);
   return (
-    <div className="text-center h-screen" ref={vantaRef}>
+    <div className="text-center min-h-screen" ref={vantaRef}>
       <Navbar />
-      <div className=" flex  justify-center items-center">
+      <div className=" flex  justify-center items-center mt-8">
         <img
           src="./images/Logo.webp"
           className="md:h-72 h-64"
           alt="logo of website"
         />
       </div>
-      <h1 className="text-white md:text-6xl text-4xl p-4 font-poppi ns">
+      <h1 className="text-white md:text-6xl text-4xl p-4 font-poppins text-center">
         T E C H <span className="text-[#27A5EF]">N I C A</span>
       </h1>
       <div className="p-3">

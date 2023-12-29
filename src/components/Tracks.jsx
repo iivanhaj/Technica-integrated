@@ -23,7 +23,7 @@ function Tracks() {
   }, []);
 
   return (
-    <div className="relative h-screen mb-8 " id='tracks'>
+    <div className="relative h-screen mb-8 mt-4 sm:mt-6 md:mt-8 lg:mt-12" id='tracks'>
 
       <div className="relative inset-0 flex justify-left ">
         <img

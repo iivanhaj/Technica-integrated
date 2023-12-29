@@ -29,7 +29,7 @@ function Schedule() {
 
   return (
     <>
-      <div className="flex flex-col md:flex-row md:pt-14">
+      <div className="flex flex-col md:flex-row md:pt-14 mt-4 sm:mt-6 md:mt-10 lg:mt-16">
         <div className="Mainapp flex flex-col text-white ml-4 md:ml-20">
           <div className="Schtitle font-Michroma text-3xl md:text-5xl flex justify-center items-center pt-8 md:pt-40 pr-4 ">
             <span className="heading heading1">SCHE</span>

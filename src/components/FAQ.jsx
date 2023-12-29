@@ -2,7 +2,7 @@ import FAQList from "./FAQList"; // Assuming this imports the FAQ list component
 
 export default function FAQ() {
   return (
-    <div className="font-Michroma bg-cover bg-center flex flex-col max-md:flex-col mb-10">
+    <div className="font-Michroma bg-cover bg-center flex flex-col max-md:flex-col mb-10 mt-4 sm:mt-6 md:mt-8 lg:mt-12">
       <h1 className='text-white mb-8 text-8xl md:mt-12 md:mb-12 max-md:text-4xl'>FAQs</h1>
       <div className="flex-grow flex flex-col justify-center items-center text-center py-10 ">
         <div className="max-md:grid max-md:grid-cols-1  md:gap-20">
