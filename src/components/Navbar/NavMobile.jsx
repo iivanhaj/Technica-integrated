@@ -1,5 +1,5 @@
 import { useClickAway } from "react-use";
-import { useRef, useState } from "react";
+import { useRef, useState, useEffect } from "react";
 import Hamburger from "hamburger-react";
 import { routes } from "./routes";
 
@@ -7,10 +7,19 @@ export const NavMobile = () => {
   const [isOpen, setOpen] = useState(false);
   const ref = useRef(null);
 
+  // Function to toggle body scrolling
+  const toggleBodyScroll = () => {
+    document.body.classList.toggle("overflow-hidden", isOpen);
+  };
+
+  useEffect(() => {
+    toggleBodyScroll(); // Toggle body scrolling initially based on isOpen
+  }, [isOpen]);
+
   useClickAway(ref, () => setOpen(false));
 
   return (
-    <div ref={ref} className="lg:hidden">
+    <div ref={ref} className="lg:hidden" style={{ zIndex: 999 }}>
       <div className="flex items-center justify-between p-5 ">
         <span className="text-2xl text-white font-poppins">
           TECH

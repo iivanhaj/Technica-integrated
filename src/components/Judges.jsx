@@ -136,7 +136,7 @@ function Judges() {
                 </a>
               </h3>
             </article>
-            <div className="md:flex md:justify-center md:col-span-3 md:gap-10 md:mb-64 md:ml-64 md:mr-64">
+            <div className="md:flex md:justify-center md:col-span-3 md:gap-10 md:mb-36 md:ml-64 md:mr-64">
               <article className="shadow-white text-white p-6 mb-6 border border-gray-100 transition duration-300 group transform hover:-translate-y-2 hover:shadow-2xl rounded-2xl cursor-pointer">
                 <div className="relative mb-4 rounded-2xl">
                   <img

@@ -10,6 +10,7 @@ body {
     background-color: #000000;
    background-repeat: no-repeat, repeat;
     background-size: cover;
+    overflow: hidden;
     
 }
 
@@ -31,12 +32,25 @@ body {
   animation: twinkling 10s infinite;
 }
 
-
-
 @keyframes twinkling {
   0% { opacity: 0; }
   50% { opacity: 1; }
   100% { opacity: 0; }
+}
+
+/* Styles for the comets */
+.comet {
+  position: absolute;
+  animation: rotate 4s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 

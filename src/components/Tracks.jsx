@@ -6,6 +6,7 @@ import scholar from "../imageForWebsite/scholar.webp";
 import medical from "../imageForWebsite/medical.webp";
 import education from "../imageForWebsite/education.webp";
 import currency from "../imageForWebsite/currency.webp";
+import p3 from "../imageForWebsite/comets/p3.png";
 
 function Tracks() {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
@@ -44,6 +45,11 @@ function Tracks() {
         <TrackCard title="Open Innovation" icon={education} positionRight={true} />
         <TrackCard title="Fin-tech" icon={currency} positionRight={false} />
       </div>
+      <img
+            src={p3}
+            alt="Comet"
+            className="comet absolute bottom-16 max-md:bottom-56 max-md:left-24 left-56 md:w-5/12/12 w-2/12"
+          />
     </div>
   );
 }
