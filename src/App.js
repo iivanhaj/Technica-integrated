@@ -14,7 +14,7 @@ import MainCarousel from "./components/Carousel/MainCarousel";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App flex flex-col">
       <Landing />
       <About id="about"/>
       <Tracks id="tracks"/>

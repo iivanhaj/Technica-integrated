@@ -7,13 +7,13 @@ import { BsPersonLinesFill, BsPersonVideo2 } from "react-icons/bs";
 
 function Judges() {
   return (
-    <div>
+    <div className="mt-4 sm:mt-6 md:mt-8 lg:mt-12">
       <h1 className="text-white md:text-7xl text-4xl md:mb-5 font-Michroma ">
         JU<span className="text-[#27A5EF]">DGES</span>
       </h1>
       <div className="min-h-screen bg-black flex flex-col justify-center py-6 sm:py-12">
         <div className="p-6 container mx-auto">
-          <div className="md:grid md:gap-6 md:grid-cols-2 lg:grid-cols-3 mb-12 justify-center">
+          <div className="md:grid md:gap-6 md:grid-cols-2 lg:grid-cols-3 justify-center">
             <article className="shadow-white text-white p-6 mb-6 border border-gray-100 transition duration-300 group transform hover:-translate-y-2 hover:shadow-2xl rounded-2xl cursor-pointer">
               <div className="relative mb-4 rounded-2xl">
                 <img

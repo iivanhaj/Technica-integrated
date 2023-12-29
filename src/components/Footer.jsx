@@ -1,10 +1,10 @@
 import React from "react";
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import twitterLogo from "../imageForWebsite/twitter.png";
 
 function Footer() {
   return (
-    <footer className="relative w-full mt-6" id="footer">
+    <footer className="relative w-full mt-6">
       <div className="mx-auto w-full max-w-7xl px-8 lg:px-16">
         <div className="mt-12 flex w-full flex-col items-center justify-center py-12 md:flex-row md:justify-between">
           <p className="mb-4 text-center text-sm font-normal text-white md:mb-0">
@@ -13,29 +13,35 @@ function Footer() {
             </a>
           </p>
           <div className="flex gap-4 text-white sm:justify-center">
+            {/* Replace Twitter icon with the imported image */}
             <a
               href="#"
-              className="opacity-80 transition-opacity hover:opacity-100"
+              className="hover:text-[#27A5EF] transition-all duration-300"
+              style={{ marginTop: "-6px", marginRight: "-7px"}}
             >
-              <FaXTwitter className="h-5 w-5" />
+              <img
+                src={twitterLogo}
+                alt="Twitter Logo"
+                className="h-11 w-9"
+              />
             </a>
             <a
               href="#"
-              className="opacity-80 transition-opacity hover:opacity-100"
+              className="hover:text-[#27A5EF] transition-all duration-300"
             >
-              <FaFacebook className="h-5 w-5" />
+              <FaFacebook className="h-8 w-8" />
             </a>
             <a
               href="#"
-              className="opacity-80 transition-opacity hover:opacity-100"
+              className="hover:text-[#27A5EF] transition-all duration-300"
             >
-              <FaInstagram className="h-5 w-5" />
+              <FaInstagram className="h-8 w-8" />
             </a>
             <a
               href="#"
-              className="opacity-80 transition-opacity hover:opacity-100"
+              className="hover:text-[#27A5EF] transition-all duration-300"
             >
-              <FaLinkedin className="h-5 w-5" />
+              <FaLinkedin className="h-8 w-8" />
             </a>
           </div>
         </div>

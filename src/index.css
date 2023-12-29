@@ -189,3 +189,12 @@ html {
 ::-webkit-scrollbar {
   width: 1px; /* Set the width of the scrollbar */
 }
+
+.track-card {
+  transition: transform 0.3s ease, scale 0.3s ease;
+}
+
+.track-card:hover {
+  transform: rotate(5deg);
+  scale: 1.1;
+}
