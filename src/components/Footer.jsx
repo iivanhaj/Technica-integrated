@@ -1,10 +1,10 @@
 import React from "react";
-import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaYoutube, FaInstagram, FaLinkedin } from "react-icons/fa";
 import twitterLogo from "../imageForWebsite/twitter.png";
 
 function Footer() {
   return (
-    <footer className="relative w-full mt-6">
+    <footer id="footer" className="relative w-full mt-6 ">
       <div className="mx-auto w-full max-w-7xl px-8 lg:px-16">
         <div className="mt-12 flex w-full flex-col items-center justify-center py-12 md:flex-row md:justify-between">
           <p className="mb-4 text-center text-sm font-normal text-white md:mb-0">
@@ -16,25 +16,33 @@ function Footer() {
             {/* Replace Twitter icon with the imported image */}
             <a
               href="https://twitter.com/iste_vitvellore"
+              target="_blank"
+              rel="noopener noreferrer"
               className="hover:text-[#27A5EF] transition-all duration-300"
               style={{ marginTop: "-6px", marginRight: "-7px" }}
             >
               <img src={twitterLogo} alt="Twitter Logo" className="h-11 w-9" />
             </a>
             <a
-              href="https://www.facebook.com/ISTE.VIT/"
+              href="https://www.youtube.com/@ISTEVITVellore"
+              target="_blank"
+              rel="noopener noreferrer"
               className="hover:text-[#27A5EF] transition-all duration-300"
             >
-              <FaFacebook className="h-8 w-8" />
+              <FaYoutube className="h-8 w-8" />
             </a>
             <a
               href="https://www.instagram.com/iste_vit_vellore/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="hover:text-[#27A5EF] transition-all duration-300"
             >
               <FaInstagram className="h-8 w-8" />
             </a>
             <a
-              href="https://www.linkedin.com/company/indian-society-for-technical-education/mycompany/"
+              href="https://www.linkedin.com/company/indian-society-for-technical-education/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="hover:text-[#27A5EF] transition-all duration-300"
             >
               <FaLinkedin className="h-8 w-8" />
