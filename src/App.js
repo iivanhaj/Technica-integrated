@@ -9,21 +9,23 @@ import Tracks from "./components/Tracks";
 import FAQ from "./components/FAQ";
 import Judges from "./components/Judges";
 import Footer from "./components/Footer";
+import CustomCursor from "./components/CustomeCursor";
 import { ReactNebula, smallSolarSystem, bigSolarSystem } from "@flodlc/nebula";
 
 function App() {
   return (
     <div className="App">
+      <CustomCursor />
       <Landing />
-      <About id="about"/>
-      <Tracks id="tracks"/>
-      <Prizes id="prizes"/>
+      <About id="about" />
+      <Tracks id="tracks" />
+      <Prizes id="prizes" />
       <Judges />
       <Sponsor />
       <Schedule />
       <ImageSlider />
       <FAQ />
-      <Footer id="footer"/>
+      <Footer id="footer" />
     </div>
   );
 }

@@ -10,6 +10,7 @@ body {
     background-color: #000000;
    background-repeat: no-repeat, repeat;
     background-size: cover;
+    cursor: none;
     
 }
 
@@ -174,4 +175,12 @@ html {
 /* Apply to all scrollbars in the document */
 ::-webkit-scrollbar {
   width: 1px; /* Set the width of the scrollbar */
+}
+.custom-cursor {
+  position: fixed;
+  pointer-events: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+ 
 }
