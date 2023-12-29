@@ -10,6 +10,7 @@ import FAQ from "./components/FAQ";
 import Judges from "./components/Judges";
 import Footer from "./components/Footer";
 import { ReactNebula, smallSolarSystem, bigSolarSystem } from "@flodlc/nebula";
+import MainCarousel from "./components/Carousel/MainCarousel";
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
       <Judges />
       <Sponsor />
       <Schedule />
-      <ImageSlider />
+      <MainCarousel />
       <FAQ />
       <Footer id="footer"/>
     </div>
