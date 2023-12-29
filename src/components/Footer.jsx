@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
-import { FaTwitter, FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useInView } from 'react-intersection-observer';
@@ -35,7 +36,7 @@ function Footer() {
               href="#"
               className="hover:text-[#27A5EF] transition-all duration-300"
             >
-              <FaTwitter className="h-8 w-8" />
+              <FaXTwitter className="h-5 w-5" />
             </a>
             <a
               href="#"
