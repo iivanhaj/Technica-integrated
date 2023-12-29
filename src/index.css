@@ -136,7 +136,11 @@ html {
 .shadow-white {
     box-shadow: 4px 4px 8px rgba(255, 255, 255, 0.2);
   }
-
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 /* Apply to all scrollbars in the document */
 ::-webkit-scrollbar {
