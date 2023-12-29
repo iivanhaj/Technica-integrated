@@ -10,3 +10,4 @@ for (let i = 0; i < starCount; i++) {
   star.style.animationDelay = `${Math.random() * 10}s`; // Randomize animation delay
   body.appendChild(star);
 }
+

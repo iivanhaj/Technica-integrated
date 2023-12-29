@@ -7,9 +7,9 @@ function Sponsor() {
           <span className="heading heading1">SPO</span>
           <span className="heading heading2">NSORS</span>
         </p>
-        <div className="grid grid-cols-2 md:grid-cols-4 justify-center gap-y-10 justify-items-center">
+        <div className="grid grid-cols-3 md:grid-cols-4 justify-center gap-y-10 justify-items-center">
           <h2 className="text-white col-span-4 md:text-5xl"> Title Sponsor </h2>
-          <div className="col-span-2 md:col-span-4 flex flex-col items-center justify-center ">
+          <div className="col-span-3 md:col-span-4 flex flex-col items-center justify-center ">
             <div className="h-28 w-28 md:h-52 md:w-52 rounded-full bg-blue-500 flex items-center justify-center">
               <img
                 className="rounded-full border-8 border-blue-500"
@@ -24,7 +24,7 @@ function Sponsor() {
             </div>
           </div>
           <h2 className="text-white md:text-3xl col-span-4 md:mt-8 ">Community Sponsors</h2>
-          <div className="md:col-span-1 flex flex-col items-center justify-center ">
+          <div className="col-span-1 flex flex-col items-center justify-center ">
             <div className="h-20 w-20 md:h-40 md:w-40 rounded-full bg-blue-500 flex items-center justify-center">
               <img
                 className="rounded-full border-8 border-blue-500"
@@ -38,7 +38,7 @@ function Sponsor() {
               </p>
             </div>
           </div>
-          <div className="md:col-span-2 flex flex-col items-center justify-center ">
+          <div className="col-span-1 md:col-span-2 flex flex-col items-center justify-center ">
             <div className="h-20 w-20 md:h-40 md:w-40 rounded-full bg-blue-500 flex items-center justify-center">
               <img
                 className="rounded-full border-8 border-blue-500"
@@ -52,7 +52,7 @@ function Sponsor() {
               </p>
             </div>
           </div>
-          <div className="md:col-span-1 flex flex-col items-center justify-center ">
+          <div className="col-span-1 flex flex-col items-center justify-center ">
             <div className="h-20 w-20 md:h-40 md:w-40 rounded-full bg-blue-500 flex items-center justify-center">
               <img
                 className="rounded-full border-8 border-blue-500"
@@ -67,7 +67,7 @@ function Sponsor() {
             </div>
           </div>
           <h2 className="text-white md:text-3xl col-span-4 md:mt-8 ">Outreach Partners</h2>
-          <div className="md:col-span-2 flex flex-col items-center justify-center ">
+          <div className="col-span-2 flex flex-col items-center justify-center ">
             <div className="h-20 w-20 md:h-40 md:w-40 rounded-full bg-blue-500 flex items-center justify-center">
               <img
                 className="rounded-full border-8 border-blue-500"
@@ -81,7 +81,7 @@ function Sponsor() {
               </p>
             </div>
           </div>
-          <div className="md:col-span-2 flex flex-col items-center justify-center ">
+          <div className="col-span-2 flex flex-col items-center justify-center max-md:mr-28">
             <div className="h-20 w-20 md:h-40 md:w-40 rounded-full bg-blue-500 flex items-center justify-center">
               <img
                 className="rounded-full border-8 border-blue-500"
