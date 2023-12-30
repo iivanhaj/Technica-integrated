@@ -7,17 +7,17 @@ import { BsPersonLinesFill, BsPersonVideo2 } from "react-icons/bs";
 
 function Judges() {
   return (
-    <div className="mt-4 sm:mt-6 md:mt-8 lg:mt-12">
+    <div className="mt-4 sm:mt-6 md:mt-8 lg:mt-12 ">
       <h1 className="text-white md:text-7xl text-4xl md:mb-5 font-Michroma ">
         JU<span className="text-[#27A5EF]">DGES</span>
       </h1>
       <div className="min-h-screen bg-black flex flex-col justify-center py-6 sm:py-12">
-        <div className="px-20 max-md:px-20 lg:px-80 container mx-auto">
+        <div className="px-20 max-md:px-20 lg:px-80 container">
           <div className="md:grid md:px-6 md:gap-16 md:grid-cols-2 justify-center">
-            <article className="shadow-white text-white p-6 mb-6 border border-gray-100 transition duration-300 group transform hover:-translate-y-2 hover:shadow-2xl rounded-2xl cursor-pointer">
-              <div className="relative mb-4 rounded-2xl">
+            <article className="shadow-whit text-white p-6 mb-6 border border-gray-100 transition duration-300 group transform hover:-translate-y-2 hover:shadow-2xl rounded-2xl cursor-pointer">
+              <div className="relative mb-4 rounded-2x">
                 <img
-                  className="max-h-80 rounded-2xl w-full object-cover transition-transform duration-300 transform group-hover:scale-105"
+                  className="max-h-56 rounded-2xl w-full object-scale-down transition-transform duration-300 transform group-hover:scale-105"
                   src={judge1}
                   alt="Sakshi Saini"
                 />
@@ -47,7 +47,7 @@ function Judges() {
               <h3 className="font-medium text-xl leading-8">
                 <a
                   href="#2"
-                  className="block relative group-hover:text-[#27A5EF] text-left transition-colors duration-200"
+                  className="block md:text-base max-md:text-sm relative group-hover:text-[#27A5EF] text-left transition-colors duration-200"
                 >
                   Sakshi has been awarded an MBA degree in Human Resources from
                   UPES, Dehradun. Currently serving as a HR Associate at Value
@@ -58,7 +58,7 @@ function Judges() {
             <article className="shadow-white text-white p-6 mb-6 border border-gray-100 transition duration-300 group transform hover:-translate-y-2 hover:shadow-2xl rounded-2xl cursor-pointer">
               <div className="relative mb-4 rounded-2xl">
                 <img
-                  className="max-h-80 rounded-2xl w-full object-cover transition-transform duration-300 transform group-hover:scale-105"
+                  className="max-h-56 rounded-2xl w-full object-scale-down transition-transform duration-300 transform group-hover:scale-105"
                   src={judge2}
                   alt="Samridhi"
                 />
@@ -86,7 +86,7 @@ function Judges() {
               <h3 className="font-medium text-xl leading-8">
                 <a
                   href="#2"
-                  className="block relative group-hover:text-[#27A5EF] text-left transition-colors duration-200"
+                  className="block relative md:text-base max-md:text-sm group-hover:text-[#27A5EF] text-left transition-colors duration-200"
                 >
                   Samridhi is known for fostering a positive workplace culture
                   and navigating complex HR challenges with a results-oriented
@@ -99,7 +99,7 @@ function Judges() {
             <article className="shadow-white text-white p-6 mb-6 border border-gray-100 transition duration-300 group transform hover:-translate-y-2 hover:shadow-2xl rounded-2xl cursor-pointer">
               <div className="relative mb-4 rounded-2xl">
                 <img
-                  className="max-h-80 rounded-2xl w-full object-cover transition-transform duration-300 transform group-hover:scale-105"
+                  className="max-h-56 rounded-2xl w-full object-scale-down transition-transform duration-300 transform group-hover:scale-105"
                   src={judge3}
                   alt="Prassan Iyer"
                 />
@@ -127,7 +127,7 @@ function Judges() {
               <h3 className="font-medium text-xl leading-8">
                 <a
                   href="#2"
-                  className="block relative group-hover:text-[#27A5EF] text-left transition-colors duration-200"
+                  className="block relative md:text-base max-md:text-sm group-hover:text-[#27A5EF] text-left transition-colors duration-200"
                 >
                   Prasanna has a rich knowledge of the energy/commodities domain
                   as a technology leader. He has developed & materialized
@@ -139,7 +139,7 @@ function Judges() {
               <article className="shadow-white text-white p-6 mb-6 border border-gray-100 transition duration-300 group transform hover:-translate-y-2 hover:shadow-2xl rounded-2xl cursor-pointer">
                 <div className="relative mb-4 rounded-2xl">
                   <img
-                    className="max-h-80 rounded-2xl w-full object-cover transition-transform duration-300 transform group-hover:scale-105"
+                    className="max-h-56 rounded-2xl w-full object-scale-down transition-transform duration-300 transform group-hover:scale-105"
                     src="https://images.unsplash.com/photo-1621967314091-f7151d92bf49?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDEwfGhtZW52UWhVbXhNfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
                     alt=""
                   />
@@ -165,7 +165,7 @@ function Judges() {
                 <h3 className="font-medium text-xl leading-8">
                   <a
                     href="#2"
-                    className="block relative group-hover:text-[#27A5EF] transition-colors duration-200"
+                    className="block relative md:text-base max-md:text-sm group-hover:text-[#27A5EF] transition-colors duration-200"
                   >
                     Lorem ipsum dolor sit amet, Sed ad minus quam voluptate?
                     {/* this is some line about the speaker or the designation */}

@@ -5,7 +5,7 @@ import p2 from "../imageForWebsite/comets/p2.png";
 
 export default function FAQ() {
   return (
-    <div className="font-Michroma bg-cover bg-center flex flex-col max-md:flex-col mb-10">
+    <div className="font-Michroma bg-cover bg-center flex flex-col max-md:flex-col mb-10 mt-20">
             <img
                 src={p1}
               alt="Comet"

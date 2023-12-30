@@ -1,7 +1,10 @@
 import google from "../imageForWebsite/google.webp";
 import p2 from "../imageForWebsite/comets/p2.png";
 import p3 from "../imageForWebsite/comets/p3.png";
-import p4 from "../imageForWebsite/comets/p4.png";
+import rosen from "../imageForWebsite/rosen.png";
+import echo from "../imageForWebsite/echo.png";
+import wolfram from "../imageForWebsite/wolfram.png";
+import ValueCreed from "../imageForWebsite/ValueCreed.png"
 
 function Sponsor() {
   return (
@@ -22,7 +25,7 @@ function Sponsor() {
             <div className="h-28 w-28 md:h-52 md:w-52 rounded-full bg-blue-500 flex items-center justify-center">
               <img
                 className="rounded-full border-8 border-blue-500"
-                src={google}
+                src={ValueCreed}
                 alt="Google Logo"
               />
             </div>
@@ -39,7 +42,7 @@ function Sponsor() {
             <div className="h-20 w-20 md:h-40 md:w-40 rounded-full bg-blue-500 flex items-center justify-center">
               <img
                 className="rounded-full border-8 border-blue-500"
-                src={google}
+                src={rosen}
                 alt="Google Logo"
               />
             </div>
@@ -53,7 +56,7 @@ function Sponsor() {
             <div className="h-20 w-20 md:h-40 md:w-40 rounded-full bg-blue-500 flex items-center justify-center">
               <img
                 className="rounded-full border-8 border-blue-500"
-                src={google}
+                src={echo}
                 alt="Google Logo"
               />
             </div>
@@ -67,13 +70,13 @@ function Sponsor() {
             <div className="h-20 w-20 md:h-40 md:w-40 rounded-full bg-blue-500 flex items-center justify-center">
               <img
                 className="rounded-full border-8 border-blue-500"
-                src={google}
+                src={wolfram}
                 alt="Google Logo"
               />
             </div>
             <div className="flex flex-col items-center justify-center mt-2">
               <p className="text-white text-2xl max-md:text-sm text-center whitespace-nowrap">
-                Echo 3D
+                Wolfram 
               </p>
             </div>
           </div>

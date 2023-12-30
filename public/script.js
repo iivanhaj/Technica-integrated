@@ -1,5 +1,5 @@
 // Create stars
-const starCount = 1000; // Adjust the number of stars as needed
+const starCount = 2000; // Adjust the number of stars as needed
 const body = document.querySelector('body');
 
 for (let i = 0; i < starCount; i++) {

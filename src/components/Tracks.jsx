@@ -6,7 +6,7 @@ import ML from "../imageForWebsite/ML.png";
 import OpenIno from "../imageForWebsite/OpenIno.png";
 import Fintech from "../imageForWebsite/FinTech.png";
 import hardware from "../imageForWebsite/Hardware.png";
-
+import p2 from "../imageForWebsite/comets/p2.png";
 import CustomeCursor from "../components/CustomeCursor";
 
 function Tracks() {
@@ -29,6 +29,11 @@ function Tracks() {
       className="cursor-none relative h-screen mb-8 mt-4 sm:mt-6 md:mt-8 lg:mt-12"
       id="tracks"
     >
+      <img
+        src={p2}
+        alt="Comet"
+        className="comet absolute bottom-52 max-md:left-32 left-56 md:w-1/12 w-16"
+      />
       <CustomeCursor />
       <div className="relative inset-0 flex justify-left ">
         <img

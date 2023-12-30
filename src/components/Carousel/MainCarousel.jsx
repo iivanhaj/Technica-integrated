@@ -8,38 +8,38 @@ function MainCarousel() {
     {
       key: uuidv4(),
       content: (
-        <Card imagen="https://updates.theme-fusion.com/wp-content/uploads/2017/12/convertplus_thumbnail.jpg" timing="9:00-10:00"/>
+        <Card imagen="https://ik.imagekit.io/11b646uhq/Horizon_23/TBA_1RI-mlrIY.png?updatedAt=1679476087933" timing=""/>
       )
     },
     {
       key: uuidv4(),
       content: (
-        <Card imagen="https://updates.theme-fusion.com/wp-content/uploads/2017/12/acf_pro.png" timing="12:00-4:00"/>
+        <Card imagen="https://ik.imagekit.io/11b646uhq/Horizon_23/TBA_1RI-mlrIY.png?updatedAt=1679476087933" timing=""/>
       )
     },
     {
       key: uuidv4(),
       content: (
-        <Card imagen="https://updates.theme-fusion.com/wp-content/uploads/2017/12/layer_slider_plugin_thumb.png" timing="5:00-7:00"/>
+        <Card imagen="https://ik.imagekit.io/11b646uhq/Horizon_23/TBA_1RI-mlrIY.png?updatedAt=1679476087933" timing=""/>
       )
     },
     {
       key: uuidv4(),
       content: (
-        <Card imagen="https://updates.theme-fusion.com/wp-content/uploads/2016/08/slider_revolution-1.png" />
+        <Card imagen="https://ik.imagekit.io/11b646uhq/Horizon_23/TBA_1RI-mlrIY.png?updatedAt=1679476087933" timing=""/>
       )
     },
     {
       key: uuidv4(),
       content: (
-        <Card imagen="https://updates.theme-fusion.com/wp-content/uploads/2019/01/pwa_880_660.jpg" />
+        <Card imagen="https://ik.imagekit.io/11b646uhq/Horizon_23/TBA_1RI-mlrIY.png?updatedAt=1679476087933" timing=""/>
       )
     }
   ];
   return (
     <>
     <div className="caro-caro">
-    <p className="text-center md:mb-8 ">
+    <p className="text-center md:mb-14">
         <span className="heading heading1 font-Michroma">ENGA</span>
         <span className="heading heading2 font-Michroma">GEMENTS</span>
       </p>

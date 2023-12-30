@@ -17,11 +17,11 @@ const CustomCursor = () => {
   }, []);
 
   return (
-    <img
+    <img 
       src={logo}
       alt="Custom Cursor"
-      className="custom-cursor "
-      style={{ left: `${position.x}px`, top: `${position.y}px` }}
+      className="custom-cursor z-50"
+      style={{ left: `${position.x}px`, top: `${position.y}px `,}}
     />
   );
 };

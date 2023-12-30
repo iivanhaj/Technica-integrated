@@ -19,7 +19,7 @@ function Card({ imagen ,timing}) {
       onMouseEnter={() => setShown(true)}
       onMouseLeave={() => setShown(false)}
     >
-      <img src={imagen} alt="" />
+      <img className="bg-slate-600 object-cover" src={imagen} alt="" />
       <h1>{timing}</h1>
     </animated.div>
   );

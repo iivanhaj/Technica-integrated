@@ -42,16 +42,16 @@ function Schedule() {
             <span className="heading heading1">SCHE</span>
             <span className="text-[#27A5EF] heading heading2">DULE</span>
           </div>
-          <div className="mainBody flex justify-center md:justify-start items-center md:items-start pt-8 md:pt-40 pr-4 md:pr-64 pb-8 md:pb-44">
+          <div className="mainBody flex justify-center md:justify-start items-center md:items-start pt-8 md:pt-40 pr-4 md:pr-64 pb-8">
             <div className="daycon flex flex-col md:pl-20">
-              <div className="day1 flex flex-col mb-8 md:mb-12 md:ml-72">
+              <div className="day1 flex flex-col mb-6 md:ml-72 md:mt-20">
                 <div
                   ref={scroll.ref}
                   className="daytitle font-Changa text-4xl md:text-7xl text-slate-200 underline underline-offset-4 font-thin hover:text-7xl md:hover:text-8xl duration-300 delay-100 mb-4"
                 >
-                  <div className="text-left md:pb-10">DAY - 1</div>
+                  <div className="text-left md:pb-10 ">DAY - 1</div>
                 </div>
-                <div className="daycon flex flex-col w-80">
+                <div className="daycon flex flex-col w-96">
                   {dayContent.day1.map((content, index) => (
                     <div
                       key={index}
@@ -64,16 +64,16 @@ function Schedule() {
                           className="h-5 animate-spin-slow hover:animate-spin delay-150"
                         />
                       </div>
-                      <div className="p-2">{content}</div>
+                      <div className="p-2 schedule-text">{content}</div>
                     </div>
                   ))}
                 </div>
               </div>
-              <div className="day2 flex flex-col mt-4 md:mt-8 md:ml-20">
+              <div className="day2 flex flex-col mt-4  md:ml-20">
                 <div className="daytitle font-Changa text-4xl md:text-7xl text-slate-200 underline underline-offset-4 font-thin hover:text-7xl md:hover:text-8xl duration-200 delay-100 md:mt-64">
                   <h1 className="text-left pb-10 md:pt-8">DAY - 2</h1>
                 </div>
-                <div className="daycon flex flex-col md:pb-40 w-80">
+                <div className="daycon flex flex-col md:pb-40 w-96">
                   {dayContent.day2.map((content, index) => (
                     <div
                       key={index}
@@ -86,7 +86,7 @@ function Schedule() {
                           className="h-5 animate-spin-slow hover:animate-spin-slow delay-150"
                         />
                       </div>
-                      <div className="p-2">{content}</div>
+                      <div className="p-2 schedule-text">{content}</div>
                     </div>
                   ))}
                 </div>
@@ -95,7 +95,7 @@ function Schedule() {
                 <div className="daytitle font-Changa text-4xl md:text-7xl text-slate-200 underline underline-offset-4 font-thin hover:text-7xl md:hover:text-8xl duration-200 delay-100 md:mt-20">
                   <h1 className="text-left pb-10 md:pt-3">DAY - 3</h1>
                 </div>
-                <div className="daycon flex flex-col md:pb-40 w-80">
+                <div className="daycon flex flex-col md:pb-40 w-96">
                   {dayContent.day3.map((content, index) => (
                     <div
                       key={index}
@@ -108,7 +108,7 @@ function Schedule() {
                           className="h-5 animate-spin-slow hover:animate-spin-slow delay-150"
                         />
                       </div>
-                      <div className="p-2">{content}</div>
+                      <div className="p-2 schedule-text">{content}</div>
                     </div>
                   ))}
                 </div>

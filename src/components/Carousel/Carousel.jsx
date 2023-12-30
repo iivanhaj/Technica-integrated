@@ -12,13 +12,14 @@ export default function Carroussel(props) {
   const [goToSlide, setGoToSlide] = useState(null);
   const [cards] = useState(table);
 
+
   useEffect(() => {
     setOffsetRadius(props.offset);
     setShowArrows(props.showArrows);
   }, [props.offset, props.showArrows]);
 
   return (
-    <div
+    <div className="pt-20 "
       style={{ width: props.width, height: props.height, margin: props.margin }}
     >
       <Carousel
