@@ -21,7 +21,7 @@ const CustomCursor = () => {
       src={logo}
       alt="Custom Cursor"
       className="custom-cursor z-50"
-      style={{ left: `${position.x}px`, top: `${position.y}px `,}}
+      style={{ left: `${position.x}px`, top: `${position.y}px `}}
     />
   );
 };
