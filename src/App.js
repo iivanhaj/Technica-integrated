@@ -20,7 +20,6 @@ function App() {
       <Judges />
       <Sponsor />
       <Schedule />
-
       <MainCarousel />
       <FAQ />
       <Footer id="footer" />
